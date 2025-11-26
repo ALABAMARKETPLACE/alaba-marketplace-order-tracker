@@ -105,8 +105,8 @@ src/
 Create a `.env.local` file in the project root:
 
 ```bash
-NEXT_PUBLIC_API_BASE_URL=http://localhost:3000  # Backend base URL
-NEXT_PUBLIC_APP_URL=http://localhost:3001       # Frontend URL (optional)
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3002  # Backend base URL (NestJS API)
+NEXT_PUBLIC_APP_URL=http://localhost:3001       # Frontend URL (Next.js app)
 ```
 
 The frontend uses `NEXT_PUBLIC_API_BASE_URL` for all API calls (e.g. `/api/v1/orders`, `/api/v1/products`).
